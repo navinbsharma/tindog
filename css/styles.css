@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  max-height: 100%;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3rem;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p{
+  color : grey;
+  /* padding: 5px; */
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.dog-image {
+  position:absolute;
+  -ms-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  right: 20%;
+}
+
+/* Features */
+#feature{
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+.feature-box{
+  padding : 7% 5%;
+}
+.icon{
+  color : #ef8172;
+  margin-bottom: 10px;
+}
+
+.icon:hover{
+  color : #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding : 7% 15%;
+}
+.testimonial-image{
+  width : 10%;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding: 5%;
+    text-align: center;
+}
+
+.press-image{
+  margin:10px 10px 10px;
+  max-width: 100%;
+}
+/* Pricing */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 2% 7%;
+}
+
+/* CTA */
+#cta{
+  background-color : #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 100px;
+}
+
+.hh3{
+  font-weight: bold 500;
+}
+/* Footer */
+#footer{
+  background-color : #fff;
+  text-align: center;
+  padding: 20px 0 50px;
+}
+
+.footer_button{
+  padding: 30px 10px 20px;
+}
+
+.footer_icon{
+  padding: 20px 10px;
+}
+
+@media (max-width : 1200px) {
+  #title{
+    text-align: center;
+    padding: 0;
+    line-height: 3.5;
+  }
+  .dog-image{
+    text-align: center;
+    position: static;
+    transform: rotate(0);
+    max-width: 100%;
+    max-height: 50%;
+  }
+}
